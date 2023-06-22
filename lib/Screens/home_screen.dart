@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Positioned(
                     top: -150.0,
-                    left: 0.0,
+                    left: 1.0,
                     right: 0.0,
                     child: Container(
                       height: MediaQuery.of(context).size.height,
