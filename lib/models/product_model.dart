@@ -11,5 +11,5 @@ class ProductModel {
       this.name,
       this.category,
       this.price,
-      this.model});
+      this.model });
 }
