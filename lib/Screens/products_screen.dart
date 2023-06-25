@@ -68,16 +68,19 @@ class Products extends StatelessWidget {
                   Row(
                     children: [
                       container(
+                        height: 60,
                         width: 60.0,
                         widget: Icon(Icons.search),
                       ),
                       wSizedbox(15),
                       container(
+                        height: 60,
                         width: 60.0,
                         widget: Icon(Icons.settings),
                       ),
                       wSizedbox(15),
                       container(
+                        height: 60,
                         width: 120.0,
                         colors: Constants.primaryColor,
                         widget: Padding(

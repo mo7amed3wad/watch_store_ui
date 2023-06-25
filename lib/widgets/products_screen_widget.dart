@@ -1,31 +1,31 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
 
-import 'package:block_test/Screens/watch_details.dart';
+
 import 'package:block_test/models/product_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 Widget container({
+  double? height,
   Widget? widget,
   Color? colors,
   double? width,
+ 
+  
 }) {
-  return InkWell(
-    onTap: () {
-      return;
-    },
-    child: Container(
-      width: width,
-      height: 60,
-      decoration: BoxDecoration(
-        color: colors,
-        borderRadius: BorderRadius.circular(8.0),
-        border: Border.all(
-          color: Color.fromRGBO(230, 230, 230, 1),
+  return  Container(
+        width: width,
+        height: height,
+        decoration: BoxDecoration(
+          color: colors,
+          borderRadius: BorderRadius.circular(8.0),
+          border: Border.all(
+            color: Color.fromRGBO(230, 230, 230, 1),
+          ),
         ),
-      ),
-      child: widget,
-    ),
+        child: widget,
+      
+    
   );
 }
 
